@@ -1,0 +1,8 @@
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 1.0//EN" "http://www.getahead.ltd.uk/dwr/dwr10.dtd">
+<dwr>
+    <allow>
+        <create creator="new" javascript="bot" scope="session">
+            <param name="class" value="org.aitools.programd.server.BotAccess" />
+        </create>
+    </allow>
+</dwr>
